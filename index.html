@@ -2,25 +2,51 @@
 <html>
     <head>
         <title>Kevin Wang Brooklyn Designer</title>
+        <link rel="icon" href="./images/favicon.png">
         <link rel="preconnect" href="https://fonts.googleapis.com">
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
         <link href="https://fonts.googleapis.com/css2?family=Major+Mono+Display&family=Nokora:wght@700&display=swap" rel="stylesheet">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <style>
+            @media only screen and (max-width: 600px) {
+                section.email {
+                    font-size: 8px;
+                    text-align: right;
+                }
+
+                section.intro {
+                    margin: 0px;
+                }
+
+                section.intro article {
+                    font-size: 56px;
+                }
+                section.projects {
+                    font-size: 8px;
+                }
+                section.down-scroll img{
+                    text-align: center;
+                    height: 24px;
+                    width: 24px;
+                }
+            }
+        </style>
     </head>
 
     <body style="background-color: black;">
         <main>
-            <section style="color:white; font-family: 'Major Mono Display', monospace; text-align: right;">
+            <section class="email" style="color:white; font-family: 'Major Mono Display', monospace; text-align: right;">
                 wkevg12@gmail.com
             </section>
-            <section style="color:white; font-family: 'Major Mono Display', monospace; font-size: 128px; margin-bottom: 128px; margin-top: 128px;">
+            <section class="intro" style="color:white; font-family: 'Major Mono Display', monospace; font-size: 128px; margin-bottom: 128px; margin-top: 128px;">
                 <article>KEVIN WANG</article>
                 <article>PRODUCT DESIGNER</article>
                 <article>BROOKLYN, NY</article>
             </section>
-            <section style="color:white; font-family: 'Major Mono Display', monospace; text-align: center;">
+            <section class="projects" style="color:white; font-family: 'Major Mono Display', monospace; text-align: center;">
                 my projects
             </section>
-            <section style="text-align: center;">
+            <section class="down-scroll" style="text-align: center;">
                 <img src="icons/Chevron Down.png" alt="Down Icon">
             </section>
             <section style="height: 48px; background-color: #202020">|</section>
